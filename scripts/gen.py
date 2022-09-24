@@ -26,6 +26,6 @@ if show_original:
     with open(source_path, 'r') as g:
         for line in g.readlines():
             sys.stdout.write("//" , line)
-    sys.stdout.write("//\n" )
+    sys.stdout.write("\n//\n" )
     
 print(template % {"len": len(arr), "text": r})
